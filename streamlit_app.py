@@ -43,6 +43,5 @@ streamlit.header("The fruit load contains:")
 streamlit.dataframe(my_data_rows)
 
 # New section to display fruityvice api response
-streamlit.header('Fruityvice Fruit Advice!')
-teste = streamlit.text_input('What fruit would you like imformation about?', 'jackfruit')
+teste = streamlit.text_input('What fruit would you like to add?', 'jackfruit')
 streamlit.write('Thanks for adding:', teste)
